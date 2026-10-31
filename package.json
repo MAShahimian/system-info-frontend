@@ -1,0 +1,15 @@
+{
+  "name": "@radintech/system-info-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./routes": "./src/routes.ts",
+    "./menu": "./src/menu.ts"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.0",
+    "vue-router": "^5.0.0"
+  }
+}
